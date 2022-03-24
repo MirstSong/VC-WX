@@ -1,0 +1,20 @@
+.login{
+    .bannerImg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20rpx 0;
+    }
+    .loginBtn{
+        width: 80%;
+        letter-spacing: 10rpx;
+        margin: auto;
+        margin-top:50rpx;
+        .at-button__icon{
+            margin: 2PX 25rpx 0 -50rpx;
+        }
+    }
+    .at-input__title{
+        width: 100rpx;
+    }
+}

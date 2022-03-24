@@ -1,0 +1,93 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &>view {
+        width: 90%;
+        height: 180rpx;
+        line-height: 180rpx;
+        background-color: #007AFF;
+        text-align: center;
+        margin: 25rpx 0;
+        font-size: 40rpx;
+        color: #fff;
+        border-radius: 15rpx;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        padding-left: 50rpx;
+
+        &>view {
+            width: 50rpx;
+            height: 50rpx;
+            background: url(../../../image/index/agentHover.png) no-repeat;
+            background-size: 100%;
+            background-position: 0rpx 5rpx;
+        }
+
+        &>text {
+            width: 260rpx;
+            text-align: left;
+            padding-left: 10rpx;
+        }
+    }
+
+    &>view:nth-child(2) {
+        &>view {
+            background: url(../../../image/index/groupHover.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    &>view:nth-child(3) {
+        &>view {
+            background: url(../../../image/index/engineerHover.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    &>view:nth-child(4) {
+        &>view {
+            background: url(../../../image/index/settingHover.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    &>view:hover {
+        background-color: #dcdcdc;
+        color: #007AFF;
+
+        &>view {
+            width: 50rpx;
+            height: 50rpx;
+            background: url(../../../image/index/agent.png) no-repeat;
+            background-size: 100%;
+            background-position: 0rpx 5rpx;
+        }
+    }
+
+    &>view:nth-child(2):hover {
+        &>view {
+            background: url(../../../image/index/group.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    &>view:nth-child(3):hover {
+        &>view {
+            background: url(../../../image/index/engineer.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+
+    &>view:nth-child(4):hover {
+        &>view {
+            background: url(../../../image/index/setting.png) no-repeat;
+            background-size: 100%;
+        }
+    }
+}

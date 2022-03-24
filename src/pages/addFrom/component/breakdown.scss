@@ -1,0 +1,31 @@
+.breakdown{
+    .item-content__info-title::before {
+        display: inline-block;
+        margin-right: 10rpx;
+        color: #FF4949;
+        font-size: 28rpx;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: "*";
+    }
+    .at-list__item{
+        padding: 24rpx 35rpx;
+        border: none;
+    }
+    .at-list__item-content{
+        margin-right: 0;
+    }
+    .item-extra__info{
+        margin-bottom: 2rpx;
+        color: #000;
+    }
+    .at-list::after{
+        border-top:none ;
+        border-bottom: none;
+    }
+    .at-list__item-extra{
+        flex: 3;
+        max-width: 70%;
+        text-align: left;
+    }
+}
